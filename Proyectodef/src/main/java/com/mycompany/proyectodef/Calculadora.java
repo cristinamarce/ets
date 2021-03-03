@@ -7,7 +7,7 @@ package com.mycompany.proyectodef;
 
 public class Calculadora {
     private String operador1;
-    private String operador2;
+    private String oper2;
     private String operador;
 
     /**
@@ -27,15 +27,15 @@ public class Calculadora {
     /**
      * @return the operador2
      */
-    public String getOperador2() {
-        return operador2;
+    public String getOper2() {
+        return oper2;
     }
 
     /**
-     * @param operador2 the operador2 to set
+     * @param oper2 the operador2 to set
      */
-    public void setOperador2(String operador2) {
-        this.operador2 = operador2;
+    public void setOper2(String oper2) {
+        this.oper2 = oper2;
     }
 
     /**
